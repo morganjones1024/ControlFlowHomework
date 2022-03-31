@@ -5,19 +5,19 @@ public class AsciiChars {
 
 	public static void printNumbers() {
 		// Write code to print 0-9
-		for (char i = '0'; i <= '9'; ++i) {
+		for (char i = 48; i <= 57; ++i) {
 			System.out.println(i);
 		}
 	}
 
 	public static void printLowerCase() {
-		for (char ch = 'a'; ch <= 'z'; ch++) {
+		for (char ch = 97; ch <= 122; ch++) {
 			System.out.println(ch);
 		}
 	}
 
 	public static void printUpperCase() {
-		for (char ch = 'A'; ch <= 'Z'; ch++) {
+		for (char ch = 65; ch <= 90; ch++) {
 			System.out.println(ch);
 		}
 	}
